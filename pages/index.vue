@@ -106,7 +106,7 @@ const onClickTodayLearning = () => {
     $swal
         .fire({
             title: '오늘의 원어민 수업 영상을 확인해 주세요.',
-            confirmButtonText: '원어민 영상 보러가기',
+            confirmButtonText: '원어민 영상 보러가기 > ',
         })
         .then((result) => {
             if (result.isConfirmed) {
