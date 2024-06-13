@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+    min-height: calc(100vh - 6rem);
+    @apply flex justify-center items-center m-auto relative
+}
+
+.swal2-popup {padding: 1.7em 0!important; min-width: 288px;}
+.swal2-title {font-size: 17px!important; color: #000 !important; padding: 0 !important; letter-spacing: -1px;}
+.swal2-styled{background-color: rgb(255, 96, 41) !important; padding: 0.7em 0; min-width: 130px; border-radius: 500px; width: 100% !important;}
+.swal2-popup .swal2-styled:focus { box-shadow: none !important;}
+.swal2-actions {margin: 0.8em auto 0 !important; width: 300px !important;  flex-wrap: nowrap !important;}
+
+@media screen and (max-width:480px) {
+  .swal2-title {font-size: 15px!important;}
+}
